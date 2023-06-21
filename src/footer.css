@@ -1,0 +1,41 @@
+.footer {
+    /* margin-top: 0; */
+    background-color: black;
+    height: 30vh;
+    width: 100%;
+    color: aliceblue;
+}
+.ftexts a{
+    color: white;
+    text-decoration: none;
+    font-size: 2.5rem;
+}
+.ftexts p a{
+    font-size: large;
+}
+.flist {
+    
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    font-size: larger;
+    flex-wrap: wrap;
+    color: white;
+}
+.flist a{
+    color: white;
+    outline: none;
+    text-decoration: none;
+    transition: 0.1s ease-in;
+}
+.ftexts a{
+    color: blueviolet;
+}
+.flist a:hover{
+    border-bottom:1.2px solid blueviolet;
+    color: blueviolet;
+}
+
+.flist .MuiSvgIcon-root {
+    vertical-align: bottom;
+}
